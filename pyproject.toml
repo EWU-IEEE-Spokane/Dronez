@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Dronez"
+version = "0.1.0"
+description = "An introductory experiment using Bitcraze Crazyflie drones and libraries."
+authors = ["Elliott Maguire <emaguire@ewu.edu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cflib = "^0.1.15"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
